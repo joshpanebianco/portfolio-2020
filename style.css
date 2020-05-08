@@ -1,0 +1,46 @@
+#header {
+	background: url("imgs/header.jpeg") center center / cover no-repeat;
+}
+
+.profile-img {
+	width: 300px;
+	height: 300px;
+}
+
+.footer-area {
+ height: 50px;
+ color: #fff;
+}
+
+.copyright {
+  padding-top: 15px;
+	margin-bottom: 0px;
+}
+
+.cta-text {
+	display: block;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+.lead {
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+	             0px 8px 13px rgba(0, 0, 0, 0.1),
+							 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
